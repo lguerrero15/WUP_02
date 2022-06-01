@@ -24,7 +24,7 @@ $H_0$: There is no difference between the vitamin C content based on the cultiva
 $H_A$: There is a difference between the vitamin C content based on the cultivation methods of c39 and c52.
 
 # Methods
-
+We are explaining a vitamin c numerical variable by examining the categorical variable cultivation. We will use a T_test to compare the mean of the two vitamin c and cultivation
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 # Results
@@ -34,6 +34,9 @@ $H_A$: There is a difference between the vitamin C content based on the cultivat
 ## Descriptive Results
 
 ### Graphical Descriptive Results
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
